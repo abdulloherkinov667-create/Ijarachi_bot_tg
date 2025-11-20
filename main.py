@@ -9,6 +9,7 @@ from aiogram import types
 from dotenv import load_dotenv
 # from middlewares.i18n import i18n_middleware
 # from aiogram_i18n.context import I18nContext
+from crud.users import create_user
 
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
@@ -18,6 +19,7 @@ load_dotenv(BASE_DIR / ".env")
 dp = Dispatcher()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
+DATABASE_URL = os.getenv("DATABASE_URL")
 ADMIN_ID = int(os.getenv("ADMIN_ID", 0))
 DEFAULT_LANGUAGE = os.getenv("DEFAULT_LANGUAGE", "uz")
 SUPPORTED_LANGUAGES = ["uz", "ru", "en"]
