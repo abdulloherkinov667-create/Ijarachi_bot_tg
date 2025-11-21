@@ -9,7 +9,8 @@ from aiogram import types
 from dotenv import load_dotenv
 # from middlewares.i18n import i18n_middleware
 # from aiogram_i18n.context import I18nContext
-from crud.users import create_user
+from models.users import User
+from database import SessionLocal
 
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
@@ -27,7 +28,23 @@ SUPPORTED_LANGUAGES = ["uz", "ru", "en"]
 
 @dp.message(Command('start'))
 async def start(message: types.Message):
+    try:
+        db = SessionLocal()
+        db_user = User(
+        telegram_id=message.from_user.id,
+        username=message.from_user.username,
+        first_name=message.from_user.first_name,
+        last_name=message.from_user.last_name,
+        language_code=message.from_user.language_code,
+        is_active=True
+    )
+        db.add(db_user)
+        db.commit()
+        db.refresh(db_user)
+    except:
+        pass
     await message.answer("Salom")
+
 
 
 

@@ -7,6 +7,11 @@ from models.users import User
 from schemas.user import UserCreate
 
 
+
+
+
+
+
 async def create_user(db: AsyncSession, user: UserCreate) -> User:
     db_user = User(
         telegram_id=user.telegram_id,

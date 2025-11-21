@@ -1,6 +1,7 @@
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton 
 from aiogram_i18n import I18nContext
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-
+import sqlite3
+from aiogram_i18n.context import I18nContext
 
 def till_button(i18n: I18nContext) -> ReplyKeyboardMarkup:
     _ = i18n
