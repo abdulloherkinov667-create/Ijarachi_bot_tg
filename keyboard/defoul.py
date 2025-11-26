@@ -14,9 +14,7 @@ def till_button(i18n: I18nContext) -> ReplyKeyboardMarkup:
             ]
         ],
         resize_keyboard=True
-    )    
-    
-    
+    )      
     
     
 def bosh_saxifa(i18n: I18nContext) -> ReplyKeyboardMarkup:
@@ -35,9 +33,7 @@ def bosh_saxifa(i18n: I18nContext) -> ReplyKeyboardMarkup:
             ],
         ],
         resize_keyboard=True
-    )   
-    
-    
+    )     
     
     
 def bosh_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
@@ -104,8 +100,7 @@ def ijara_muddati(i18n: I18nContext) -> ReplyKeyboardMarkup:
             ],
         ],
         resize_keyboard=True
-    ) 
-    
+    )     
     
     
 def tuman(i18n: I18nContext) -> ReplyKeyboardMarkup:
@@ -133,27 +128,85 @@ def tuman(i18n: I18nContext) -> ReplyKeyboardMarkup:
             ],
         ],
         resize_keyboard=True
-    )     
-    
-    
+    )        
 
 
-def ijarachilar_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
+def soni_kv(i18n: I18nContext) -> ReplyKeyboardMarkup:
     _ = i18n.gettext
 
     return ReplyKeyboardMarkup(
         keyboard=[
             [
-                KeyboardButton(text=_('talabalar_text')),
-                KeyboardButton(text=_('ishchilar_text'))
+                KeyboardButton(text=_('1_')),
+                KeyboardButton(text=_('2_')),
+                KeyboardButton(text=_('3_')),
+                KeyboardButton(text=_('4_')),
+                KeyboardButton(text=_('5_'))
             ],
             [
-                KeyboardButton(text=_('sayyohlar_text')),
-                KeyboardButton(text=_('oilaga_text'))
+                KeyboardButton(text=_('6_')),
+                KeyboardButton(text=_('7_')),
+                KeyboardButton(text=_('8_')),
+                KeyboardButton(text=_('9_')),
+                KeyboardButton(text=_('10_'))
+            ],
+        ],
+        resize_keyboard=True
+    )
+
+    
+    
+    
+def maydon_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n.gettext
+
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_('m2_20')),
+                KeyboardButton(text=_('m2_25')),
+                KeyboardButton(text=_('m2_30')),
+                KeyboardButton(text=_('m2_35')),
+                KeyboardButton(text=_('m2_40'))
             ],
             [
-                KeyboardButton(text=_('sheriklik_text')),
-                KeyboardButton(text=_('barchaga_text'))
+                KeyboardButton(text=_('m2_45')),
+                KeyboardButton(text=_('m2_50')),
+                KeyboardButton(text=_('m2_55')),
+                KeyboardButton(text=_('m2_60')),
+                KeyboardButton(text=_('m2_65'))
+            ],
+            [
+                KeyboardButton(text=_('m2_70')),
+                KeyboardButton(text=_('m2_75')),
+                KeyboardButton(text=_('m2_80')),
+                KeyboardButton(text=_('m2_85')),
+                KeyboardButton(text=_('m2_90'))
+            ],
+            [
+                KeyboardButton(text=_('m2_95')),
+                KeyboardButton(text=_('m2_100')),
+                KeyboardButton(text=_('m2_200')),
+                KeyboardButton(text=_('m2_300')),
+                KeyboardButton(text=_('m2_400'))
+            ],
+            [
+                KeyboardButton(text=_('m2_500')),
+                KeyboardButton(text=_('m2_600')),
+                KeyboardButton(text=_('m2_700')),
+                KeyboardButton(text=_('m2_800')),
+                KeyboardButton(text=_('m2_900'))
+            ],
+            [
+                KeyboardButton(text=_('m2_1000')),
+                KeyboardButton(text=_('m2_2000')),
+                KeyboardButton(text=_('m2_3000')),
+                KeyboardButton(text=_('m2_4000')),
+                KeyboardButton(text=_('m2_5000'))
+            ],
+            [
+                KeyboardButton(text=_('m2_6000')),
+                KeyboardButton(text=_('m2_6500'))
             ],
             [
                 KeyboardButton(text=_('ortaga_text')),
@@ -164,3 +217,27 @@ def ijarachilar_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
     )
     
     
+def ijarachilar_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n.gettext
+
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_('talabalarga_text')),
+                KeyboardButton(text=_('ishchilarga_text'))
+            ],
+            [
+                KeyboardButton(text=_('sayyohlarga_text')),
+                KeyboardButton(text=_('oilaga_text'))
+            ],
+            [
+                KeyboardButton(text=_('sheriklikka_text')),
+                KeyboardButton(text=_('barchaga_text'))
+            ],
+            [
+                KeyboardButton(text=_('bosh_saxifa_text')),
+                KeyboardButton(text=_('ortaga_text'))
+            ],
+        ],
+        resize_keyboard=True
+    )    
