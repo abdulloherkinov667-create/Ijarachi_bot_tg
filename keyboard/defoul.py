@@ -104,7 +104,7 @@ def ijara_muddati(i18n: I18nContext) -> ReplyKeyboardMarkup:
     
     
 def tuman(i18n: I18nContext) -> ReplyKeyboardMarkup:
-    _ = i18n.gettext
+    _ = i18n
 
     return ReplyKeyboardMarkup(
         keyboard=[
@@ -132,33 +132,29 @@ def tuman(i18n: I18nContext) -> ReplyKeyboardMarkup:
 
 
 def soni_kv(i18n: I18nContext) -> ReplyKeyboardMarkup:
-    _ = i18n.gettext
-
     return ReplyKeyboardMarkup(
         keyboard=[
             [
-                KeyboardButton(text=_('1_')),
-                KeyboardButton(text=_('2_')),
-                KeyboardButton(text=_('3_')),
-                KeyboardButton(text=_('4_')),
-                KeyboardButton(text=_('5_'))
+                KeyboardButton(text=("1_")),
+                KeyboardButton(text=("2_")),
+                KeyboardButton(text=("3_")),
+                KeyboardButton(text=("4_")),
+                KeyboardButton(text=("5_"))
             ],
             [
-                KeyboardButton(text=_('6_')),
-                KeyboardButton(text=_('7_')),
-                KeyboardButton(text=_('8_')),
-                KeyboardButton(text=_('9_')),
-                KeyboardButton(text=_('10_'))
+                KeyboardButton(text=("6_")),
+                KeyboardButton(text=("7_")),
+                KeyboardButton(text=("8_")),
+                KeyboardButton(text=("9_")),
+                KeyboardButton(text=("10_"))
             ],
         ],
         resize_keyboard=True
     )
 
-    
-    
-    
+
 def maydon_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
-    _ = i18n.gettext
+    _ = i18n
 
     return ReplyKeyboardMarkup(
         keyboard=[
@@ -210,7 +206,7 @@ def maydon_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
             ],
             [
                 KeyboardButton(text=_('ortaga_text')),
-                KeyboardButton(text=_('bosh_sahifa_text'))
+                KeyboardButton(text=_('bosh_saxifa_text'))
             ],
         ],
         resize_keyboard=True
@@ -218,7 +214,7 @@ def maydon_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
     
     
 def ijarachilar_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
-    _ = i18n.gettext
+    _ = i18n
 
     return ReplyKeyboardMarkup(
         keyboard=[
@@ -241,3 +237,149 @@ def ijarachilar_menu(i18n: I18nContext) -> ReplyKeyboardMarkup:
         ],
         resize_keyboard=True
     )    
+    
+    
+def tamir_turi(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n
+
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_('yevro_tamir')),
+                KeyboardButton(text=_('ta_misz'))
+            ],
+            [
+                KeyboardButton(text=_('karop_ka')),
+                KeyboardButton(text=_('orta_tamir'))
+            ],
+            [
+                KeyboardButton(text=_('ortaga_text')),
+                KeyboardButton(text=_('bosh_saxifa_text'))
+            ],
+        ],
+        resize_keyboard=True
+    )     
+    
+    
+def texnika_buttons(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("tv")),
+                KeyboardButton(text=_("muzlatgich")),
+                KeyboardButton(text=_("konditsioner"))
+            ],
+            [
+                KeyboardButton(text=_("changyutgich")),
+                KeyboardButton(text=_("mikroto_lqin")),
+                KeyboardButton(text=_("ventilyator")),
+            ],
+            [
+                KeyboardButton(text=_("choynak")),
+                KeyboardButton(text=_("wifi")),
+                KeyboardButton(text=_("isitgich"))
+            ],
+            [
+                
+                KeyboardButton(text=_("bosh_saxifa_text")),
+                KeyboardButton(text=_("ortaga_text"))
+            ]
+        ],
+        resize_keyboard=True
+    )
+    
+
+def dollar_buttons(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("100")),
+                KeyboardButton(text=_("200")),
+                KeyboardButton(text=_("300")),
+                KeyboardButton(text=_("400")),
+                KeyboardButton(text=_("500"))
+            ],
+            [
+                KeyboardButton(text=_("600")),
+                KeyboardButton(text=_("700")),
+                KeyboardButton(text=_("800")),
+                KeyboardButton(text=_("900")),
+                KeyboardButton(text=_("1000"))
+            ],
+            [
+                KeyboardButton(text=_("1500")),
+                KeyboardButton(text=_("2000")),
+                KeyboardButton(text=_("2500")),
+                KeyboardButton(text=_("3000")),
+                KeyboardButton(text=_("3500"))
+            ],
+            [
+                KeyboardButton(text=_("4000$")),
+                KeyboardButton(text=_("4500$")),
+                KeyboardButton(text=_("5000$")),
+                KeyboardButton(text=_("bosh_saxifa_text")),
+                KeyboardButton(text=_("ortaga_text"))
+            ]
+        ],
+        resize_keyboard=True
+    )
+    
+    
+def foiz_button(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("yo"))
+            ],
+            [
+                KeyboardButton(text=_("5%")),
+                KeyboardButton(text=_("10%")),
+                KeyboardButton(text=_("15%")),
+                KeyboardButton(text=_("20%")),
+                KeyboardButton(text=_("25%"))
+            ],
+            [
+                KeyboardButton(text=_("30%")),
+                KeyboardButton(text=_("35%")),
+                KeyboardButton(text=_("40%")),
+                KeyboardButton(text=_("45%")),
+                KeyboardButton(text=_("50%"))
+            ],
+            [
+                KeyboardButton(text=_("bosh_saxifa_text")),
+                KeyboardButton(text=_("ortaga_text"))
+            ]
+        ],
+        resize_keyboard=True
+    )  
+    
+    
+def tel_button(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("tel_button_text"), request_contact=True)
+            ]
+        ],
+        resize_keyboard=True
+        )  
+    
+    
+def izoh(i18n: I18nContext) -> ReplyKeyboardMarkup:
+    _ = i18n
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("tel_button_text"), request_contact=True)
+            ], 
+            [
+                KeyboardButton(text=_("bosh_saxifa_text")),
+                KeyboardButton(text=_("ortaga_text"))
+            ]
+        ],
+        resize_keyboard=True
+        )        

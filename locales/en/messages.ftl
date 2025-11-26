@@ -18,6 +18,13 @@ kv_artira = Apartment
 Uy_hovli = House
 D_acha = Dacha
 o_fis = Office
+yo = No ❌
+vosita_haq_text = Is there a commission fee?       If yes, what percentage? 💰
+tel_sor_text = Enter your phone number 📱
+tel_button_text = Share your phone number 📱
+izoh_izo = If you have additional information, write it. Or press Continue ➡️
+
+
 
 
 ortaga_text = ⬅️ Back
@@ -30,10 +37,26 @@ Choose one of the buttons 👇
 
 qaysi_tuman = Which district? 📍
 Choose one of the buttons 👇
+tamir_sor_text = What is the renovation condition? 
+Choose one of the buttons.
+narx_sor_text = "How much is the price? (for 1 month)"
+
+
+
+rasm_sor = 📎 Click this icon to upload photos.                                                             ❗️The number of photos must not exceed 10.
+
+
+rasm_yuboring_text = Dear customer, only photos are allowed 🛑
+
+
+
+
 
 
 tanlash_shaxar = 🌐 Choose another region
 kv_kimlarga = Who do you want to rent it out to? 🧑‍🤝‍🧑
+rasm_yuboring_text: "Please send a photo 📷"
+rasm_sor_text: "Photo received ✅"
 
 
 =============tumanlar toshkentdagi================
@@ -54,20 +77,22 @@ uchtepa_text = Uchtepa district
 yashnobod_text = Yashnobod district
 
 
-1_ =1
-2_ =2
-3_ =3
-4_ =4
-5_ =5
-6_ =6
-7_ =7
-8_ =8
-9_ =9
-10_ =10
+1_ = 1
+2_ = 2
+3_ = 3
+4_ = 4
+5_ = 5
+6_ = 6
+7_ = 7
+8_ = 8
+9_ = 9
+10_ = 10
+
 
 
 kv_soni_text = How many rooms does your apartment have? Use the buttons. 🏠
 Kv_maydon_text = What should be the area? (m²) 📐
+jihoz_sor_text = Select the additional appliances available in the house using the buttons below 👇
 
 m2_20 = 20 m²
 m2_25 = 25 m²
@@ -112,3 +137,29 @@ sayyohlarga_text = For Tourists
 oilaga_text = For Families
 sheriklikka_text = For Partnership
 barchaga_text = For Everyone
+
+
+tamir_text = How is the repair?
+
+Choose one of the buttons 👇
+
+
+
+100 = 100$
+200 = 200$
+300 = 300$
+400 = 400$
+500 = 500$
+600 = 600$
+700 = 700$
+800 = 800$
+900 = 900$
+1000 = 1000$
+1500 = 1500$
+2000 = 2000$
+2500 = 2500$
+3000 = 3000$
+3500 = 3500$
+4000 = 4000$
+4500 = 4500$
+5000 = 5000$

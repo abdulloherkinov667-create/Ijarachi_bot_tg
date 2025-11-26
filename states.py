@@ -16,6 +16,5 @@ class KvartiraBosh(StatesGroup):
     kvar_vosita= State()    
     user_tel = State() 
     izoh_user = State()         
-    user_tel = State()         
             
     

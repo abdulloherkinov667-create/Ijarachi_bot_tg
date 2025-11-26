@@ -86,9 +86,16 @@ Discovery Consult MCHJ xizmat ko‘rsatadi.
     await msg.answer_photo(url, caption=text)
     
    
+@dp.message(lambda message, i18n: message.text == i18n("uz"))
+async def til_uz(msg: types.Message, i18n: I18nContext):
+    await i18n.set_locale('uz')
+    await i18n_middleware.set_user_locale(msg.from_user.id, 'uz')  # foydalanuvchi tilini saqlash
+    await msg.answer(i18n("xush_keldi_text"), reply_markup=bosh_saxifa(i18n))
+
 @dp.message(lambda message, i18n: message.text == i18n("bosh_saxifa_text"))
 async def change_uz(msg: types.Message, i18n: I18nContext):
     await i18n.set_locale('uz')
+    await i18n_middleware.set_user_locale(msg.from_user.id, 'uz')
     await msg.answer(i18n("qaytildi_text"), reply_markup=bosh_saxifa(i18n))  
     
    
@@ -214,8 +221,8 @@ async def lang_en_home(msg: types.Message, i18n: I18nContext):
 async def main():
     bot = Bot(token=BOT_TOKEN)
     i18n_middleware.setup(dispatcher=dp)
-    await dp.start_polling(bot)
     dp.include_router(kvartira_dp)
+    await dp.start_polling(bot)
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)

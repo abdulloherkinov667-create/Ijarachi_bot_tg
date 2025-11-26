@@ -29,6 +29,8 @@ o_fis= Ofis
 ortaga_text = ⬅️ Orqaga
 uzoq_text = Uzoq Muddatga 
 kunlik_text = Kunlik Kerak
+narx_sor_tex = Narxi qancha? (1 oy uchun)
+yo = Yo'q ❌
 
 
 bino_s = Qanday turdagi binoni ijaraga berasiz?  Tugmalardan birini tanlang 👇
@@ -37,9 +39,23 @@ Tugmalardan birini tanlang 👇
 
 
 qaysi_tuman = Qaysi tumanda?
+
 Tugmalardan birini tanlang 👇
 
 
+rasm_sor = 📎 Shu belgini bosib rasmlarni yuklang.                                         ❗️Rasmlar soni 10 tadan oshmasin.
+
+
+rasm_yuboring_text = Xurmatli mijoz faqat rasm deyildi shekil 🛑
+jihoz_sor_text = Binoda bor qo'shimcha jihozlarni quyidagi tugmalar yordamida tanlang 👇
+tel_sor_text = Telefon raqamingizni kiriting 📱
+tel_button_text = Telefon raqamni ulashish 📱
+izoh_izo = Qo'shimcha ma'lumot bo'lsa yozing. Yoki,          Davom etish ➡️ tugmasini bosing.
+
+
+
+
+vosita_haq_text = Vositachilik haqi bormi?     Agar bo'lsa, necha foiz? 💰
 
 tanlash_shaxar = 🌐 Boshqa viloyatni tanlash
 kv_kimlarga = Kimlarga ijaraga bermoqchisiz? 🧑‍🤝‍🧑
@@ -54,22 +70,29 @@ mirobod_text = Mirobod tumani
 yunusobod_text = Yunusobod tumani
 chilonzor_text = Chilonzor tumani
 sergeli_text = Sergeli tumani
+tamir_sor_text = Ta’mir holati qanday? 
+Tugmalardan birini tanlang.
 
 shayxontohur_text = Shayxontohur tumani
 uchtepa_text = Uchtepa tumani
 yashnobod_text = Yashnobod tumani
+yevro_tamir = Yevro Ta'miri
+ta_misz = Ta'mirsiz
+karop_ka = Karopka xolati
+orta_tamir = O'rta ta'mir
 
 
-1_ =1
-2_ =2
-3_ =3
-4_ =4
-5_ =5
-6_ =6
-7_ =7
-8_ =8
-9_ =9
-10_ =10
+1_ = 1
+2_ = 2
+3_ = 3
+4_ = 4
+5_ = 5
+6_ = 6
+7_ = 7
+8_ = 8
+9_ = 9
+10_ = 10
+
 
 
 kv_soni_text = Kvartirangiz necha xonali tugmalardan foydalaning
@@ -118,3 +141,46 @@ sayyohlarga_text = Sayyohlarga
 oilaga_text = Oilaga
 sheriklikka_text = Sheriklikga 
 barchaga_text = Barchaga
+
+
+tamir_text = Ta'miri qanday?
+
+Tugmalardan birini tanlang 👇
+
+
+
+===============texnika buttons===================
+
+tv = Telovizor
+muzlatgich = Muzlatgich
+konditsioner = Konditsioner
+pech = Pech
+plita = Plita
+changyutgich = Changyutgich
+mikroto_lqin = Mikroto‘lqin P
+choynak = Choynak
+wifi = wifi
+isitgich = Isitgich
+ventilyator = Ventilyator
+
+
+
+
+100 = 100$
+200 = 200$
+300 = 300$
+400 = 400$
+500 = 500$
+600 = 600$
+700 = 700$
+800 = 800$
+900 = 900$
+1000 = 1000$
+1500 = 1500$
+2000 = 2000$
+2500 = 2500$
+3000 = 3000$
+3500 = 3500$
+4000 = 4000$
+4500 = 4500$
+5000 = 5000$
