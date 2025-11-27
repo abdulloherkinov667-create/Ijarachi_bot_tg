@@ -1,11 +1,10 @@
 kop_till_text = Choose your language
-ru = Russian 🇺🇿
-uz = Uzbek 🇷🇺
+ru = Russian 🇷🇺
+uz = Uzbek 🇺🇿
 en = English 🇬🇧
 
 
 xush_keldi_text = Welcome to the Rent Bot!
-
 ijara_text = 🔎 I want to rent
 ijaraga_beraman = 🔑 I want to rent out
 tilni_tanlash_text = Choose a language 👇
@@ -23,7 +22,7 @@ vosita_haq_text = Is there a commission fee?       If yes, what percentage? 💰
 tel_sor_text = Enter your phone number 📱
 tel_button_text = Share your phone number 📱
 izoh_izo = If you have additional information, write it. Or press Continue ➡️
-
+rh_au = Ha ✔
 
 
 
@@ -33,31 +32,18 @@ kunlik_text = Daily Needed
 bino_s = What type of building do you rent out? 🏢 Choose one of the buttons 👇
 muddat_text = For how long do you want to rent it out? ⏳
 Choose one of the buttons 👇
-
-
 qaysi_tuman = Which district? 📍
 Choose one of the buttons 👇
 tamir_sor_text = What is the renovation condition? 
 Choose one of the buttons.
 narx_sor_text = "How much is the price? (for 1 month)"
-
-
-
 rasm_sor = 📎 Click this icon to upload photos.                                                             ❗️The number of photos must not exceed 10.
-
-
 rasm_yuboring_text = Dear customer, only photos are allowed 🛑
-
-
-
-
-
 
 tanlash_shaxar = 🌐 Choose another region
 kv_kimlarga = Who do you want to rent it out to? 🧑‍🤝‍🧑
 rasm_yuboring_text: "Please send a photo 📷"
 rasm_sor_text: "Photo received ✅"
-
 
 =============tumanlar toshkentdagi================
 
@@ -66,16 +52,13 @@ olmazor_text = Olmazor district
 bektemir_text = Bektemir district
 mirobod_text = Mirobod district
 
-
 yunusobod_text = Yunusabad district
 chilonzor_text = Chilonzor district
 sergeli_text = Sergeli district
 
-
 shayxontohur_text = Shaykhontohur district
 uchtepa_text = Uchtepa district
 yashnobod_text = Yashnobod district
-
 
 1_ = 1
 2_ = 2
@@ -87,7 +70,6 @@ yashnobod_text = Yashnobod district
 8_ = 8
 9_ = 9
 10_ = 10
-
 
 
 kv_soni_text = How many rooms does your apartment have? Use the buttons. 🏠
@@ -128,7 +110,6 @@ m2_6000 = 6000 m²
 m2_6500 = 6500 m²
 
 
-
 kimlarga_ber_text_kv_en = Who do you want to rent to? 🏠
 
 talabalarga_text = For Students
@@ -137,29 +118,37 @@ sayyohlarga_text = For Tourists
 oilaga_text = For Families
 sheriklikka_text = For Partnership
 barchaga_text = For Everyone
-
-
 tamir_text = How is the repair?
-
 Choose one of the buttons 👇
 
 
+100text = 100$
+200text = 200$
+300text = 300$
+400text = 400$
+500text = 500$
+600text = 600$
+700text = 700$
+800text = 800$
+900text = 900$
+1000text = 1000$
+1500text = 1500$
+2000text = 2000$
+2500text = 2500$
+3000text = 3000$
+3500text = 3500$
+4000text = 4000$
+4500text = 4500$
+5000text = 5000$
 
-100 = 100$
-200 = 200$
-300 = 300$
-400 = 400$
-500 = 500$
-600 = 600$
-700 = 700$
-800 = 800$
-900 = 900$
-1000 = 1000$
-1500 = 1500$
-2000 = 2000$
-2500 = 2500$
-3000 = 3000$
-3500 = 3500$
-4000 = 4000$
-4500 = 4500$
-5000 = 5000$
+
+bes_h = 5%
+on_text = 10%
+onbes_h = 15%
+yigrm_a = 20%
+yigrmab_s = 25%
+ots_t = 30%
+otiz_b = 35%
+qir_q = 40%
+qirs_sh = 45%
+eli_k = 50%

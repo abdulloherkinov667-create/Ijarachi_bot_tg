@@ -5,6 +5,7 @@ from aiogram_i18n.context import I18nContext
 from aiogram.filters import CommandStart, command
 from keyboard.defoul import uylar_tur, bosh_saxifa, tuman, maydon_menu, soni_kv, ijara_muddati, ijarachilar_menu, tamir_turi, texnika_buttons, dollar_buttons, foiz_button, tel_button, izoh
 from states import KvartiraBosh
+from keyboard.inlayn import inline
 
 
 
@@ -72,7 +73,7 @@ async def kvartira_ma(msg: types.Message, i18n: I18nContext, state: FSMContext):
 @dp.message(KvartiraBosh.rasm, F.photo)
 async def book_rasm(msg: types.Message, i18n: I18nContext, state: FSMContext):
     await i18n.set_locale('uz')
-    await state.update_data(rasm_tashla_tex = msg.photo[-1])
+    await state.update_data(rasm_tashla_tex=msg.photo[-1].file_id)
     await msg.answer(i18n("tamir_sor_text"), reply_markup=tamir_turi(i18n))
     await state.set_state(KvartiraBosh.tamir)
     
@@ -88,15 +89,15 @@ async def jihoz_sor(msg: types.Message, i18n: I18nContext, state: FSMContext):
 @dp.message(KvartiraBosh.jihoz_uyda)
 async def kv_narz(msg: types.Message, i18n: I18nContext, state: FSMContext):
     await i18n.set_locale('uz')
-    await state.update_data(kvnarx_rasm = msg.text)
+    await state.update_data(narx_rasm = msg.text)
     await msg.answer(i18n("narx_sor_tex"), reply_markup =dollar_buttons(i18n))
-    await state.set_state(KvartiraBosh.kvar_vosita)
+    await state.set_state(KvartiraBosh.kvar_narx)
     
     
-@dp.message(KvartiraBosh.kvar_vosita)
+@dp.message(KvartiraBosh.kvar_narx)
 async def kv_haq(msg: types.Message, i18n: I18nContext, state: FSMContext):
     await i18n.set_locale('uz')
-    await state.update_data(kv_haqi = msg.text)
+    await state.update_data(qaqqihaqi = msg.text)
     await msg.answer(i18n("vosita_haq_text"), reply_markup =foiz_button(i18n))
     await state.set_state(KvartiraBosh.kvar_vosita)    
     
@@ -106,36 +107,34 @@ async def kv_haq_tel(msg: types.Message, i18n: I18nContext, state: FSMContext):
     await i18n.set_locale('uz')
     await state.update_data(kv_tel = msg.text)
     await msg.answer(i18n("tel_sor_text"), reply_markup =tel_button(i18n))
-    await state.set_state(KvartiraBosh.izoh_user)    
+    await state.set_state(KvartiraBosh.user_tel)  
     
     
-@dp.message(KvartiraBosh.izoh_user)
+@dp.message(KvartiraBosh.user_tel)
 async def kv_izo(msg: types.Message, i18n: I18nContext, state: FSMContext):
     await i18n.set_locale('uz')
-    await state.update_data(izoh = msg.text)
-    await state.update_data(izoh = msg.text)
+    await state.update_data(izoh_soro=msg.text)
     data = await state.get_data()
-    
-    data2 = f"""
-    {data.get('rasm_tashla_tex')}
-    
-    🌟IJARA-CHI | {data.get('bino_ta')}
-    
-    
-    📍 Manzil: Toshkent, {data.get('manzil_kv_tan')}
-    🛠️ Ta'mir: {data.get('tamir_text')}
-    📐 Maydoni: {data.get('xona_maydon_kv')}
-    💵 Narxi: {data.get('kvnarx_rasm')}
-    🤝 Vositachilik haqi: {data.get('kv_haqi')}
-    🔌 Jihozlar:  {data.get('jihoz_user')}
-    
-    
-    📱 <-- {data.get('tel_sor_text')}
-    
-    
-    
-    📣 KANAL  📝 OLX
-    👥 GURUH  📷 INSTAGRAM 
 
-    """  
-    await msg.answer(data2)
+    rasm_id = data.get('rasm_tashla_tex')
+    if rasm_id:
+        await msg.answer_photo(
+            photo=rasm_id,
+            caption=f"""🌟 IJARA-CHI | {data.get('bino_ta')}
+
+
+📍 Manzil: Toshkent, {data.get('manzil_kv_tan')}
+🛠️ Ta'mir: {data.get('tamir_text')}
+📐 Maydoni: {data.get('xona_maydon_kv')}
+💵 Narxi: {data.get('narx_rasm')}
+🤝 Vositachilik haqi: {data.get('qaqqihaqi')}
+🔌 Jihozlar: {data.get('jihoz_user')}
+📱 Telefon: {data.get('kv_tel')}
+
+
+
+📣 KANAL    📝 OLX
+👥 GURUH    📷 INSTAGRAM
+""", reply_markup = inline(i18n)
+        )
+

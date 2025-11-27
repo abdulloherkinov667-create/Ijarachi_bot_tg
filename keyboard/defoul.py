@@ -135,18 +135,18 @@ def soni_kv(i18n: I18nContext) -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         keyboard=[
             [
-                KeyboardButton(text=("1_")),
-                KeyboardButton(text=("2_")),
-                KeyboardButton(text=("3_")),
-                KeyboardButton(text=("4_")),
-                KeyboardButton(text=("5_"))
+                KeyboardButton(text=("1")),
+                KeyboardButton(text=("2")),
+                KeyboardButton(text=("3")),
+                KeyboardButton(text=("4")),
+                KeyboardButton(text=("5"))
             ],
             [
-                KeyboardButton(text=("6_")),
-                KeyboardButton(text=("7_")),
-                KeyboardButton(text=("8_")),
-                KeyboardButton(text=("9_")),
-                KeyboardButton(text=("10_"))
+                KeyboardButton(text=("6")),
+                KeyboardButton(text=("7")),
+                KeyboardButton(text=("8")),
+                KeyboardButton(text=("9")),
+                KeyboardButton(text=("10"))
             ],
         ],
         resize_keyboard=True
@@ -295,30 +295,30 @@ def dollar_buttons(i18n: I18nContext) -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         keyboard=[
             [
-                KeyboardButton(text=_("100")),
-                KeyboardButton(text=_("200")),
-                KeyboardButton(text=_("300")),
-                KeyboardButton(text=_("400")),
-                KeyboardButton(text=_("500"))
+                KeyboardButton(text=_("y_text")),
+                KeyboardButton(text=_("i_text")),
+                KeyboardButton(text=_("u_text")),
+                KeyboardButton(text=_("t_text")),
+                KeyboardButton(text=_("b_text"))
             ],
             [
-                KeyboardButton(text=_("600")),
-                KeyboardButton(text=_("700")),
-                KeyboardButton(text=_("800")),
-                KeyboardButton(text=_("900")),
-                KeyboardButton(text=_("1000"))
+                KeyboardButton(text=_("o_text")),
+                KeyboardButton(text=_("yo_text")),
+                KeyboardButton(text=_("s_text")),
+                KeyboardButton(text=_("t_text")),
+                KeyboardButton(text=_("yu_text"))
             ],
             [
-                KeyboardButton(text=_("1500")),
-                KeyboardButton(text=_("2000")),
-                KeyboardButton(text=_("2500")),
-                KeyboardButton(text=_("3000")),
-                KeyboardButton(text=_("3500"))
+                KeyboardButton(text=_("iy_text")),
+                KeyboardButton(text=_("im_text")),
+                KeyboardButton(text=_("iy_text")),
+                KeyboardButton(text=_("uyr_text")),
+                KeyboardButton(text=_("uchra_text"))
             ],
             [
-                KeyboardButton(text=_("4000$")),
-                KeyboardButton(text=_("4500$")),
-                KeyboardButton(text=_("5000$")),
+                KeyboardButton(text=_("tor_text")),
+                KeyboardButton(text=_("text_tyar")),
+                KeyboardButton(text=_("besh_text")),
                 KeyboardButton(text=_("bosh_saxifa_text")),
                 KeyboardButton(text=_("ortaga_text"))
             ]
@@ -332,21 +332,21 @@ def foiz_button(i18n: I18nContext) -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         keyboard=[
             [
-                KeyboardButton(text=_("yo"))
+                KeyboardButton(text=_("y_o"))
             ],
             [
-                KeyboardButton(text=_("5%")),
-                KeyboardButton(text=_("10%")),
-                KeyboardButton(text=_("15%")),
-                KeyboardButton(text=_("20%")),
-                KeyboardButton(text=_("25%"))
+                KeyboardButton(text=_("bes_h")),
+                KeyboardButton(text=_("on_text")),
+                KeyboardButton(text=_("onbes_h")),
+                KeyboardButton(text=_("yigrm_a")),
+                KeyboardButton(text=_("yigrmab_s"))
             ],
             [
-                KeyboardButton(text=_("30%")),
-                KeyboardButton(text=_("35%")),
-                KeyboardButton(text=_("40%")),
-                KeyboardButton(text=_("45%")),
-                KeyboardButton(text=_("50%"))
+                KeyboardButton(text=_("ots_t")),
+                KeyboardButton(text=_("otiz_b")),
+                KeyboardButton(text=_("qir_q")),
+                KeyboardButton(text=_("qirs_sh")),
+                KeyboardButton(text=_("eli_k"))
             ],
             [
                 KeyboardButton(text=_("bosh_saxifa_text")),

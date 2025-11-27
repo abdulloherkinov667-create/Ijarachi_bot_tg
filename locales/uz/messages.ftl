@@ -1,6 +1,6 @@
 kop_till_text = Choose your language
-ru = Russian 🇺🇿
-uz = Uzbek 🇷🇺
+ru = Russian 🇷🇺
+uz = Uzbek 🇺🇿
 en = English 🇬🇧
 
 
@@ -24,13 +24,14 @@ kv_artira = Kvartira
 Uy_hovli = Uy xovli
 D_acha = Dacha
 o_fis= Ofis
+rh_au = Ha ✔
 
 
 ortaga_text = ⬅️ Orqaga
 uzoq_text = Uzoq Muddatga 
 kunlik_text = Kunlik Kerak
 narx_sor_tex = Narxi qancha? (1 oy uchun)
-yo = Yo'q ❌
+y_o = Yo'q ❌
 
 
 bino_s = Qanday turdagi binoni ijaraga berasiz?  Tugmalardan birini tanlang 👇
@@ -39,13 +40,10 @@ Tugmalardan birini tanlang 👇
 
 
 qaysi_tuman = Qaysi tumanda?
-
 Tugmalardan birini tanlang 👇
 
 
 rasm_sor = 📎 Shu belgini bosib rasmlarni yuklang.                                         ❗️Rasmlar soni 10 tadan oshmasin.
-
-
 rasm_yuboring_text = Xurmatli mijoz faqat rasm deyildi shekil 🛑
 jihoz_sor_text = Binoda bor qo'shimcha jihozlarni quyidagi tugmalar yordamida tanlang 👇
 tel_sor_text = Telefon raqamingizni kiriting 📱
@@ -56,7 +54,6 @@ izoh_izo = Qo'shimcha ma'lumot bo'lsa yozing. Yoki,          Davom etish ➡️ 
 
 
 vosita_haq_text = Vositachilik haqi bormi?     Agar bo'lsa, necha foiz? 💰
-
 tanlash_shaxar = 🌐 Boshqa viloyatni tanlash
 kv_kimlarga = Kimlarga ijaraga bermoqchisiz? 🧑‍🤝‍🧑
 
@@ -66,13 +63,11 @@ kv_kimlarga = Kimlarga ijaraga bermoqchisiz? 🧑‍🤝‍🧑
 olmazor_text = Olmazor tumani
 bektemir_text = Bektemir tumani
 mirobod_text = Mirobod tumani
-
 yunusobod_text = Yunusobod tumani
 chilonzor_text = Chilonzor tumani
 sergeli_text = Sergeli tumani
 tamir_sor_text = Ta’mir holati qanday? 
 Tugmalardan birini tanlang.
-
 shayxontohur_text = Shayxontohur tumani
 uchtepa_text = Uchtepa tumani
 yashnobod_text = Yashnobod tumani
@@ -92,7 +87,6 @@ orta_tamir = O'rta ta'mir
 8_ = 8
 9_ = 9
 10_ = 10
-
 
 
 kv_soni_text = Kvartirangiz necha xonali tugmalardan foydalaning
@@ -134,19 +128,14 @@ m2_6500 = 6500 m²
 
 
 kimlarga_ber_text_kv_uz = Kimlarga ijaraga bermoqchisiz? 🏠
-
 talabalarga_text = Talabalarga 
 ishchilarga_text = ishchilarga
 sayyohlarga_text = Sayyohlarga 
 oilaga_text = Oilaga
 sheriklikka_text = Sheriklikga 
 barchaga_text = Barchaga
-
-
 tamir_text = Ta'miri qanday?
-
 Tugmalardan birini tanlang 👇
-
 
 
 ===============texnika buttons===================
@@ -163,24 +152,37 @@ wifi = wifi
 isitgich = Isitgich
 ventilyator = Ventilyator
 
+y_text = 100$
+i_text = 200$
+u_text = 300$
+t_text = 400$
+b_text = 500$
+o_text = 600$
+yo_text = 700$
+s_text = 800$
+t_text = 900$
+yu_text = 1000$
+iy_text = 1500$
+im_text = 2000$
+iy_text = 2500$
+uyr_text = 3000$
+uchra_text = 3500$
+tor_text = 4000$
+text_tyar = 4500$
+besh_text = 5000$
+
+
+bes_h = 5%
+on_text = 10%
+onbes_h = 15%
+yigrm_a = 20%
+yigrmab_s = 25%
+ots_t = 30%
+otiz_b = 35%
+qir_q = 40%
+qirs_sh = 45%
+eli_k = 50%
 
 
 
-100 = 100$
-200 = 200$
-300 = 300$
-400 = 400$
-500 = 500$
-600 = 600$
-700 = 700$
-800 = 800$
-900 = 900$
-1000 = 1000$
-1500 = 1500$
-2000 = 2000$
-2500 = 2500$
-3000 = 3000$
-3500 = 3500$
-4000 = 4000$
-4500 = 4500$
-5000 = 5000$
+
