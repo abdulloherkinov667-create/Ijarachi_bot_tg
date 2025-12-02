@@ -112,19 +112,35 @@ def tuman(i18n: I18nContext) -> ReplyKeyboardMarkup:
                 KeyboardButton(text=_('tanlash_shaxar'))
             ],
             [
-                KeyboardButton(text=_('olmazor_text')),
-                KeyboardButton(text=_('bektemir_text')),
+                KeyboardButton(text=_('olmazor_text'))
+            ],
+            [
+                KeyboardButton(text=_('bektemir_text'))
+            ],
+            [
                 KeyboardButton(text=_('mirobod_text'))
             ],
             [
-                KeyboardButton(text=_('yunusobod_text')),
-                KeyboardButton(text=_('chilonzor_text')),
+                KeyboardButton(text=_('yunusobod_text'))                
+            ],
+            [
+                KeyboardButton(text=_('chilonzor_text'))                
+            ],
+            [
                 KeyboardButton(text=_('sergeli_text'))
             ],
             [
-                KeyboardButton(text=_('shayxontohur_text')),
-                KeyboardButton(text=_('uchtepa_text')),
+                KeyboardButton(text=_('shayxontohur_text'))
+            ],
+            [
+                KeyboardButton(text=_('uchtepa_text'))
+            ],
+            [
                 KeyboardButton(text=_('yashnobod_text'))
+            ],
+            [
+                KeyboardButton(text=_('ortaga_text')),
+                KeyboardButton(text=_('bosh_saxifa_text'))
             ],
         ],
         resize_keyboard=True
@@ -267,27 +283,28 @@ def texnika_buttons(i18n: I18nContext) -> ReplyKeyboardMarkup:
         keyboard=[
             [
                 KeyboardButton(text=_("tv")),
-                KeyboardButton(text=_("muzlatgich")),
-                KeyboardButton(text=_("konditsioner"))
+                KeyboardButton(text=_("muzlatgich"))
             ],
             [
                 KeyboardButton(text=_("changyutgich")),
                 KeyboardButton(text=_("mikroto_lqin")),
-                KeyboardButton(text=_("ventilyator")),
             ],
             [
-                KeyboardButton(text=_("choynak")),
+                KeyboardButton(text=_("choynak")),                      
+                KeyboardButton(text=_("ventilyator"))
+            ],
+            [
                 KeyboardButton(text=_("wifi")),
                 KeyboardButton(text=_("isitgich"))
             ],
             [
-                
                 KeyboardButton(text=_("bosh_saxifa_text")),
                 KeyboardButton(text=_("ortaga_text"))
             ]
         ],
         resize_keyboard=True
     )
+
     
 
 def dollar_buttons(i18n: I18nContext) -> ReplyKeyboardMarkup:
@@ -372,10 +389,7 @@ def tel_button(i18n: I18nContext) -> ReplyKeyboardMarkup:
 def izoh(i18n: I18nContext) -> ReplyKeyboardMarkup:
     _ = i18n
     return ReplyKeyboardMarkup(
-        keyboard=[
-            [
-                KeyboardButton(text=_("tel_button_text"), request_contact=True)
-            ], 
+        keyboard=[ 
             [
                 KeyboardButton(text=_("bosh_saxifa_text")),
                 KeyboardButton(text=_("ortaga_text"))

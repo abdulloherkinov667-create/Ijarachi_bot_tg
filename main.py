@@ -28,6 +28,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
 ADMIN_ID = int(os.getenv("ADMIN_ID", 0))
 DEFAULT_LANGUAGE = os.getenv("DEFAULT_LANGUAGE", "uz")
+
 SUPPORTED_LANGUAGES = ["uz", "ru", "en"]
 
 
@@ -95,8 +96,13 @@ async def til_uz(msg: types.Message, i18n: I18nContext):
 @dp.message(lambda message, i18n: message.text == i18n("bosh_saxifa_text"))
 async def change_uz(msg: types.Message, i18n: I18nContext):
     await i18n.set_locale('uz')
-    await i18n_middleware.set_user_locale(msg.from_user.id, 'uz')
     await msg.answer(i18n("qaytildi_text"), reply_markup=bosh_saxifa(i18n))  
+    
+    
+@dp.message(lambda message, i18n: message.text == i18n("tilni_tanlash_text"))
+async def change_uz(msg: types.Message, i18n: I18nContext):
+    await i18n.set_locale('uz')
+    await msg.answer(i18n("tilso_z"), reply_markup=till_button(i18n))    
     
    
     

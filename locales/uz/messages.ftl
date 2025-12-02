@@ -1,25 +1,38 @@
-kop_till_text = Choose your language
+kop_till_text = tilnitanlang/Choose language/Выберите язык
 ru = Russian 🇷🇺
 uz = Uzbek 🇺🇿
 en = English 🇬🇧
 
 
-xush_keldi_text = Ijara bot ga xush kelibsiz!
-Kerakli bo‘limni tanlang. 👇
+xush_keldi_text = Ijara bot ga xush kelibsiz!                                            Kerakli bo‘limni tanlang. 👇
+manz_il = Manzil
+maydo_ni = Maydoni
+vosita_chilik = Vositachilik Haqi
+jiho_zlar = Jihozlar
+telefo_n = Telefon
+kana_l = Kanal
+gur_uh = Gurux
+tam_ir =  Ta'mir
+ol_x = OLX
+na_rx = Narx
+tosh_ken = Toshkent
+instagra_m = Instagram
+narx_1_oy = (1-oyiga)
+
 
 
 ijara_text = 🔎 Ijaraga olaman
 ijaraga_beraman = 🔑 Ijaraga beraman
 tilni_tanlash_text = Tilni tanlang 👇
 qanday_ishlaydi = ❓ Qanday ishlaydi
+himcha_uz =📝 Qo'shimcha ma’lumot uchun 
 
 
 biz_xaqimizda = Biz xaqimizda ma'lumot 
 bosh_saxifa_text = 🏠 Bosh sahifa
 qaytildi_text = Bosh saxifaga qaytildi 
 ijaraga_ot_text = Ijaraga berish boshlandi 🔑
-
-
+tugmalardan_birini = Iltimos, tugmalardan birini tanlang 👇
 kv_artira = Kvartira
 Uy_hovli = Uy xovli
 D_acha = Dacha
@@ -32,20 +45,20 @@ uzoq_text = Uzoq Muddatga
 kunlik_text = Kunlik Kerak
 narx_sor_tex = Narxi qancha? (1 oy uchun)
 y_o = Yo'q ❌
+tugmalardan_birini = Tugmalardan birini tanlang
+siz_yozdingiz = Siz Yozdingiz
 
 
-bino_s = Qanday turdagi binoni ijaraga berasiz?  Tugmalardan birini tanlang 👇
-muddat_text = Qancha muddatga ijaraga berasiz?
-Tugmalardan birini tanlang 👇
+bino_s = Qanday turdagi binoni ijaraga berasiz?                                               Tugmalardan birini tanlang 👇
+muddat_text = Qancha muddatga ijaraga berasiz?                                                Tugmalardan birini tanlang 👇
 
 
-qaysi_tuman = Qaysi tumanda?
-Tugmalardan birini tanlang 👇
+qaysi_tuman = Qaysi tumanda?                                                Tugmalardan birini tanlang 👇
 
 
-rasm_sor = 📎 Shu belgini bosib rasmlarni yuklang.                                         ❗️Rasmlar soni 10 tadan oshmasin.
+rasm_sor = 📎 Shu belgini bosib rasmlarni yuklang.                                                ❗️Rasmlar soni 10 tadan oshmasin.
 rasm_yuboring_text = Xurmatli mijoz faqat rasm deyildi shekil 🛑
-jihoz_sor_text = Binoda bor qo'shimcha jihozlarni quyidagi tugmalar yordamida tanlang 👇
+jihoz_sor_text = Binoda bor qo'shimcha jihozlarni quyidagisini kiriting         tugmalar yordamida tanlang 👇
 tel_sor_text = Telefon raqamingizni kiriting 📱
 tel_button_text = Telefon raqamni ulashish 📱
 izoh_izo = Qo'shimcha ma'lumot bo'lsa yozing. Yoki,          Davom etish ➡️ tugmasini bosing.
@@ -66,7 +79,7 @@ mirobod_text = Mirobod tumani
 yunusobod_text = Yunusobod tumani
 chilonzor_text = Chilonzor tumani
 sergeli_text = Sergeli tumani
-tamir_sor_text = Ta’mir holati qanday? 
+tamir_sor_text = Ta’mir holati qanday?                                                Tugmalardan birini tanlang 👇
 Tugmalardan birini tanlang.
 shayxontohur_text = Shayxontohur tumani
 uchtepa_text = Uchtepa tumani
@@ -75,6 +88,7 @@ yevro_tamir = Yevro Ta'miri
 ta_misz = Ta'mirsiz
 karop_ka = Karopka xolati
 orta_tamir = O'rta ta'mir
+ijara_chi_ber = Ijarachi_bot
 
 
 1_ = 1
@@ -89,8 +103,8 @@ orta_tamir = O'rta ta'mir
 10_ = 10
 
 
-kv_soni_text = Kvartirangiz necha xonali tugmalardan foydalaning
-Kv_maydon_text = Maydoni necha kvadrat bo'lsin? (m²) 📐
+kv_soni_text = Kvartirangiz necha xonali🏠                                                Tugmalardan birini tanlang 👇
+Kv_maydon_text = Maydoni necha kvadrat bo'lsin? (m²) 📐                                                Tugmalardan birini tanlang 👇
 
 
 m2_20 = 20 m²
@@ -127,7 +141,7 @@ m2_6000 = 6000 m²
 m2_6500 = 6500 m²
 
 
-kimlarga_ber_text_kv_uz = Kimlarga ijaraga bermoqchisiz? 🏠
+kimlarga_ber_text_kv_uz = Kimlarga ijaraga bermoqchisiz? 🏠                                               Tugmalardan birini tanlang 👇
 talabalarga_text = Talabalarga 
 ishchilarga_text = ishchilarga
 sayyohlarga_text = Sayyohlarga 
@@ -184,5 +198,6 @@ qirs_sh = 45%
 eli_k = 50%
 
 
+elon_tayyor_text = 📢 E'loningiz yuqoridagi ko'rinishda chiqadi!                                                                                                                                  ✅ Ma'lumotlar to'g'ri bo'lsa HA tugmasini bosing.
 
-
+tilso_z = Til sozlandi 🌐
